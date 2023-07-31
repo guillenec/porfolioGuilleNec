@@ -1,8 +1,15 @@
 import './App.css'
+import Header from './components/Header/Header'
+import AppRoutes from './routes/AppRoutes'
 
 function App () {
   return (
-    <h1>home page</h1>
+    <div className='principal'>
+      <Header />
+      {/* nav, no cambia */}
+      <AppRoutes />
+      {/* footer, no cmbia */}
+    </div>
   )
 }
 
