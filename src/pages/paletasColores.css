@@ -1,0 +1,221 @@
+/* Paleta inspirada en los Glaciares de Argentina */
+:root {
+  /* Fuentes */
+  --titulo-font: 'Playfair Display', serif;
+  --parrafo-font: 'Roboto', sans-serif;
+
+  /* Colores de fondo */
+  --bg-light: #f5f5f5;
+  /* Color de fondo principal */
+  --bg-header: #1799a1;
+  /* Color de fondo de la cabecera */
+  --bg-main: #ffffff;
+  /* Color de fondo del contenido principal */
+  --bg-footer: #e3e3e3;
+  /* Color de fondo del pie de página */
+  --bg-button: #00adb5;
+  /* Color de fondo de los botones */
+
+  /* Colores de texto */
+  --color-parrafo: #333333;
+  /* Color del texto de párrafos */
+  --color-button: #ffffff;
+  /* Color del texto de los botones */
+
+  /* Colores de hover */
+  --hover-parrafo: #1799a1;
+  /* Color de hover del texto de párrafos */
+  --hover-button: #00b8bf;
+  /* Color de hover del texto de los botones */
+
+  /* Bordes */
+  --border-button: #00adb5;
+  /* Color del borde de los botones */
+  --hover-border-button: #1799a1;
+  /* Color de hover del borde de los botones */
+}
+
+/* Paleta inspirada en las Cataratas del Iguazú */
+:root {
+  /* Fuentes */
+  --titulo-font: 'Pacifico', cursive;
+  --parrafo-font: 'Poppins', sans-serif;
+
+  /* Colores de fondo */
+  --bg-light: #fcfcfc;
+  /* Color de fondo principal */
+  --bg-header: #1e8449;
+  /* Color de fondo de la cabecera */
+  --bg-main: #ffffff;
+  /* Color de fondo del contenido principal */
+  --bg-footer: #e8e8e8;
+  /* Color de fondo del pie de página */
+  --bg-button: #148f77;
+  /* Color de fondo de los botones */
+
+  /* Colores de texto */
+  --color-parrafo: #333333;
+  /* Color del texto de párrafos */
+  --color-button: #ffffff;
+  /* Color del texto de los botones */
+
+  /* Colores de hover */
+  --hover-parrafo: #1e8449;
+  /* Color de hover del texto de párrafos */
+  --hover-button: #14a085;
+  /* Color de hover del texto de los botones */
+
+  /* Bordes */
+  --border-button: #148f77;
+  /* Color del borde de los botones */
+  --hover-border-button: #1e8449;
+  /* Color de hover del borde de los botones */
+}
+
+/* Paleta inspirada en el Cerro de los Siete Colores en Purmamarca */
+:root {
+  /* Fuentes */
+  --titulo-font: 'Cabin Sketch', cursive;
+  --parrafo-font: 'Raleway', sans-serif;
+
+  /* Colores de fondo */
+  --bg-light: #f7f7f7;
+  /* Color de fondo principal */
+  --bg-header: #d35400;
+  /* Color de fondo de la cabecera */
+  --bg-main: #ffffff;
+  /* Color de fondo del contenido principal */
+  --bg-footer: #eaeaea;
+  /* Color de fondo del pie de página */
+  --bg-button: #e74c3c;
+  /* Color de fondo de los botones */
+
+  /* Colores de texto */
+  --color-parrafo: #333333;
+  /* Color del texto de párrafos */
+  --color-button: #ffffff;
+  /* Color del texto de los botones */
+
+  /* Colores de hover */
+  --hover-parrafo: #d35400;
+  /* Color de hover del texto de párrafos */
+  --hover-button: #e95e4f;
+  /* Color de hover del texto de los botones */
+
+  /* Bordes */
+  --border-button: #e74c3c;
+  /* Color del borde de los botones */
+  --hover-border-button: #d35400;
+  /* Color de hover del borde de los botones */
+}
+
+/* Paleta inspirada en los Campos de la Pampa Argentina */
+:root {
+  /* Fuentes */
+  --titulo-font: 'Lora', serif;
+  --parrafo-font: 'Quicksand', sans-serif;
+
+  /* Colores de fondo */
+  --bg-light: #f7f7f7;
+  /* Color de fondo principal */
+  --bg-header: #646cff;
+  /* Color de fondo de la cabecera */
+  --bg-main: #ffffff;
+  /* Color de fondo del contenido principal */
+  --bg-footer: #eaeaea;
+  /* Color de fondo del pie de página */
+  --bg-button: #213547;
+  /* Color de fondo de los botones */
+
+  /* Colores de texto */
+  --color-parrafo: #333333;
+  /* Color del texto de párrafos */
+  --color-button: #ffffff;
+  /* Color del texto de los botones */
+
+  /* Colores de hover */
+  --hover-parrafo: #646cff;
+  /* Color de hover del texto de párrafos */
+  --hover-button: #2c4f6e;
+  /* Color de hover del texto de los botones */
+
+  /* Bordes */
+  --border-button: #213547;
+  /* Color del borde de los botones */
+  --hover-border-button: #646cff;
+  /* Color de hover del borde de los botones */
+}
+
+/* Paleta inspirada en las Montañas de la Cordillera de los Andes */
+:root {
+  /* Fuentes */
+  --titulo-font: 'Roboto Slab', serif;
+  --parrafo-font: 'Lato', sans-serif;
+
+  /* Colores de fondo */
+  --bg-light: #f9f6f3;
+  /* Color de fondo principal */
+  --bg-header: #646cff;
+  /* Color de fondo de la cabecera */
+  --bg-main: #ffffff;
+  /* Color de fondo del contenido principal */
+  --bg-footer: #e5ddd5;
+  /* Color de fondo del pie de página */
+  --bg-button: #a67b5b;
+  /* Color de fondo de los botones */
+
+  /* Colores de texto */
+  --color-parrafo: #333333;
+  /* Color del texto de párrafos */
+  --color-button: #ffffff;
+  /* Color del texto de los botones */
+
+  /* Colores de hover */
+  --hover-parrafo: #646cff;
+  /* Color de hover del texto de párrafos */
+  --hover-button: #8e644c;
+  /* Color de hover del texto de los botones */
+
+  /* Bordes */
+  --border-button: #a67b5b;
+  /* Color del borde de los botones */
+  --hover-border-button: #646cff;
+  /* Color de hover del borde de los botones */
+}
+
+/* Paleta inspirada en los Viñedos de Mendoza */
+:root {
+  /* Fuentes */
+  --titulo-font: 'Cormorant Garamond', serif;
+  --parrafo-font: 'Montserrat', sans-serif;
+
+  /* Colores de fondo */
+  --bg-light: #f8f4f4;
+  /* Color de fondo principal */
+  --bg-header: #646cff;
+  /* Color de fondo de la cabecera */
+  --bg-main: #ffffff;
+  /* Color de fondo del contenido principal */
+  --bg-footer: #eae3df;
+  /* Color de fondo del pie de página */
+  --bg-button: #9d6b59;
+  /* Color de fondo de los botones */
+
+  /* Colores de texto */
+  --color-parrafo: #333333;
+  /* Color del texto de párrafos */
+  --color-button: #ffffff;
+  /* Color del texto de los botones */
+
+  /* Colores de hover */
+  --hover-parrafo: #646cff;
+  /* Color de hover del texto de párrafos */
+  --hover-button: #7e5846;
+  /* Color de hover del texto de los botones */
+
+  /* Bordes */
+  --border-button: #9d6b59;
+  /* Color del borde de los botones */
+  --hover-border-button: #646cff;
+  /* Color de hover del borde de los botones */
+}

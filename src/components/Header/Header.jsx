@@ -1,16 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
+import './header.css'
 
 const Header = () => {
+  const [isOpem, setIdOpen] = useState(false)
+
+  const handleToggle = (e) => {
+    setIdOpen(!isOpem)
+  }
+
   return (
     <header className='headerContainer'>
       <nav className='navMenuContainer'>
-        <button className='navMenuButton'>home</button>
-        <button className='navMenuButton'>about</button>
-        <button className='navMenuButton'>contact</button>
-        <button className='navMenuButton'>github</button>
+        <button className='navMenuButton'>Home</button>
+        <button className='navMenuButton'>Formacion</button>
+        <button className='navMenuButton'>Proyectos</button>
+        <button className='navMenuButton'>Experiencia</button>
+        <button className='navMenuButton'>Contacto</button>
       </nav>
 
-      <div className='toggle'>
+      <div className={`toggle ${isOpem ? 'active' : ''}`} onClick={handleToggle}>
         <span className='toggle-item' />
         <span className='toggle-item' />
         <span className='toggle-item' />
