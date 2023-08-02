@@ -1,15 +1,17 @@
 import './App.css'
 import Header from './components/Header/Header'
 import AppRoutes from './routes/AppRoutes'
+import './index.css'
 
 function App () {
   return (
-    <div className='principal'>
+    <>
       <Header />
       {/* nav, no cambia */}
       <AppRoutes />
+
       {/* footer, no cmbia */}
-    </div>
+    </>
   )
 }
 
