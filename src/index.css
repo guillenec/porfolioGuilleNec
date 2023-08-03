@@ -7,21 +7,23 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  /* Modo Claro */
+  /* Paleta inspirada en las Montañas de la Cordillera de los Andes */
+
   /* Fuentes */
-  --titulo-font: 'Montserrat', sans-serif;
-  --parrafo-font: 'Open Sans', sans-serif;
+  --titulo-font: 'Roboto Slab', serif;
+  --parrafo-font: 'Lato', sans-serif;
 
   /* Colores de fondo */
-  --bg-light: #f7f7f7;
+  --bg-light: #f9f6f3;
   /* Color de fondo principal */
-  --bg-header: #005c7a;
+  --bg-header: #646cff;
+
   /* Color de fondo de la cabecera */
   --bg-main: #ffffff;
   /* Color de fondo del contenido principal */
-  --bg-footer: #eaeaea;
+  --bg-footer: #e5ddd5;
   /* Color de fondo del pie de página */
-  --bg-button: #0096c7;
+  --bg-button: #a67b5b;
   /* Color de fondo de los botones */
 
   /* Colores de texto */
@@ -31,15 +33,15 @@
   /* Color del texto de los botones */
 
   /* Colores de hover */
-  --hover-parrafo: #005c7a;
+  --hover-parrafo: #646cff;
   /* Color de hover del texto de párrafos */
-  --hover-button: #0084b3;
+  --hover-button: #8e644c;
   /* Color de hover del texto de los botones */
 
   /* Bordes */
-  --border-button: #0096c7;
+  --border-button: #a67b5b;
   /* Color del borde de los botones */
-  --hover-border-button: #005c7a;
+  --hover-border-button: #646cff;
   /* Color de hover del borde de los botones */
 
 }

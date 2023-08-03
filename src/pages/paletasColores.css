@@ -219,3 +219,40 @@
   --hover-border-button: #646cff;
   /* Color de hover del borde de los botones */
 }
+
+:root {
+  /* Modo Claro */
+  /* Fuentes */
+  --titulo-font: 'Montserrat', sans-serif;
+  --parrafo-font: 'Open Sans', sans-serif;
+
+  /* Colores de fondo */
+  --bg-light: #f7f7f7;
+  /* Color de fondo principal */
+  --bg-header: #005c7a;
+  /* Color de fondo de la cabecera */
+  --bg-main: #ffffff;
+  /* Color de fondo del contenido principal */
+  --bg-footer: #eaeaea;
+  /* Color de fondo del pie de página */
+  --bg-button: #0096c7;
+  /* Color de fondo de los botones */
+
+  /* Colores de texto */
+  --color-parrafo: #333333;
+  /* Color del texto de párrafos */
+  --color-button: #ffffff;
+  /* Color del texto de los botones */
+
+  /* Colores de hover */
+  --hover-parrafo: #005c7a;
+  /* Color de hover del texto de párrafos */
+  --hover-button: #0084b3;
+  /* Color de hover del texto de los botones */
+
+  /* Bordes */
+  --border-button: #0096c7;
+  /* Color del borde de los botones */
+  --hover-border-button: #005c7a;
+  /* Color de hover del borde de los botones */
+}
