@@ -13,24 +13,17 @@
   --titulo-font: 'Roboto Slab', serif;
   --parrafo-font: 'Lato', sans-serif;
 
-  /* Colores de fondo */
   --bg-light: #f9f6f3;
-  /* Color de fondo principal */
   --bg-header: #646cff;
-
-  /* Color de fondo de la cabecera */
   --bg-main: #ffffff;
-  /* Color de fondo del contenido principal */
   --bg-footer: #e5ddd5;
-  /* Color de fondo del pie de página */
   --bg-button: #a67b5b;
-  /* Color de fondo de los botones */
+  --bg-submenu: #646cff;
 
   /* Colores de texto */
-  --color-parrafo: #333333;
-  /* Color del texto de párrafos */
-  --color-button: #ffffff;
-  /* Color del texto de los botones */
+  --textColorBlack: #333333;
+  --textColorWhite: #fff;
+
 
   /* Colores de hover */
   --hover-parrafo: #646cff;

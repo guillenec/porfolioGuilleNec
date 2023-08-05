@@ -10,12 +10,37 @@ const Header = () => {
 
   return (
     <header className='headerContainer'>
-      <nav className='navMenuContainer'>
-        <button className='navMenuButton'>Home</button>
-        <button className='navMenuButton'>Formacion</button>
-        <button className='navMenuButton'>Proyectos</button>
-        <button className='navMenuButton'>Experiencia</button>
-        <button className='navMenuButton'>Contacto</button>
+      <nav className={`navMenuContainer ${isOpem ? 'submenuActive' : ''}`}>
+        <button className='navMenuButton'>
+          <ion-icon name='home-outline' />
+          <span>
+            Home
+          </span>
+        </button>
+        <button className='navMenuButton'>
+          <ion-icon name='school-outline' />
+          <span>
+            Formacion
+          </span>
+        </button>
+        <button className='navMenuButton'>
+          <ion-icon name='rocket-outline' />
+          <span>
+            Proyectos
+          </span>
+        </button>
+        <button className='navMenuButton'>
+          <ion-icon name='briefcase-outline' />
+          <span>
+            Experiencia
+          </span>
+        </button>
+        <button className='navMenuButton'>
+          <ion-icon name='call-outline' />
+          <span>
+            Contacto
+          </span>
+        </button>
       </nav>
 
       <div className={`toggle ${isOpem ? 'active' : ''}`} onClick={handleToggle}>
