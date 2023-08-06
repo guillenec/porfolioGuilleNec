@@ -7,35 +7,30 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  /* Paleta inspirada en las Montañas de la Cordillera de los Andes */
 
   /* Fuentes */
   --titulo-font: 'Roboto Slab', serif;
   --parrafo-font: 'Lato', sans-serif;
 
   --bg-light: #f9f6f3;
-  --bg-header: #646cff;
+  --bg-header: #504ee9;
   --bg-main: #ffffff;
   --bg-footer: #e5ddd5;
-  --bg-button: #a67b5b;
-  --bg-submenu: #646cff;
+  --bg-button: #333;
+  --bg-submenu: #504ee9;
+
 
   /* Colores de texto */
   --textColorBlack: #333333;
   --textColorWhite: #fff;
+  --textColorWhiteHover: rgb(240, 219, 33);
 
-
-  /* Colores de hover */
-  --hover-parrafo: #646cff;
-  /* Color de hover del texto de párrafos */
-  --hover-button: #8e644c;
-  /* Color de hover del texto de los botones */
+  --hover-parrafo: #504ee9;
+  --hover-button: #333;
 
   /* Bordes */
-  --border-button: #a67b5b;
-  /* Color del borde de los botones */
-  --hover-border-button: #646cff;
-  /* Color de hover del borde de los botones */
+  --border-button: #fff;
+  --hover-border-button: rgb(240, 219, 33);
 
 }
 
