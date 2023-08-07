@@ -1,7 +1,8 @@
 import './App.css'
-import Header from './components/Header/Header'
 import AppRoutes from './routes/AppRoutes'
 import './index.css'
+import Header from './layout/Header/Header'
+import Footer from './layout/Footer/Footer'
 
 function App () {
   return (
@@ -9,7 +10,7 @@ function App () {
       <Header />
       {/* nav, no cambia */}
       <AppRoutes />
-
+      <Footer />
       {/* footer, no cmbia */}
     </>
   )

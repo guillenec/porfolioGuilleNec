@@ -50,11 +50,13 @@
       cursor: pointer;
       border: solid 1px var(--border-button);
       color: var(--bg-heade);
-      transition: all ease-in .4s;
 
       background: linear-gradient(145deg, #5653f9, #4846d2);
       box-shadow: 5px 5px 5px #3937a5,
         -3px -3px 5px #918fff;
+
+      transition: all ease-in .4s;
+
 
       & ion-icon {
         font-size: 1.3rem;
@@ -70,6 +72,7 @@
         background: linear-gradient(145deg, #2e2e2e, #373737);
         box-shadow: 5px 5px 5px #262626,
           -3px -3px 5px rgb(241, 241, 71);
+
       }
     }
 
@@ -154,6 +157,7 @@
         background: linear-gradient(145deg, #5653f9, #4846d2);
         box-shadow: 5px 5px 5px #3937a5,
           -3px -3px 5px #918fff;
+        transition: all ease-in .4s;
 
         & ion-icon {
           font-size: 1.3rem;
@@ -222,11 +226,12 @@
         align-items: center;
         align-content: center;
         overflow: hidden;
-        transition: all ease-in .4s;
 
         background: linear-gradient(145deg, #5653f9, #4846d2);
         box-shadow: 5px 5px 5px #3937a5,
           -3px -3px 5px #918fff;
+        transition: all ease-in .4s;
+
 
         & ion-icon {
           font-size: 1.3rem;
