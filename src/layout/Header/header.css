@@ -51,11 +51,13 @@
       border: solid 1px var(--border-button);
       color: var(--bg-heade);
 
-      background: linear-gradient(145deg, #5653f9, #4846d2);
-      box-shadow: 5px 5px 5px #3937a5,
-        -3px -3px 5px #918fff;
+      /* background: linear-gradient(145deg, #5653f9, #4846d2); */
+      background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(170, 169, 217, 1) 2%, rgba(119, 118, 194, 1) 5%, rgba(89, 87, 180, 1) 15%, rgba(68, 66, 170, 1) 23%, rgba(57, 55, 165, 1) 42%);
 
-      transition: all ease-in .4s;
+      box-shadow: 3px 3px 3px #3937a5,
+        -3px -3px 2px #918fff;
+
+      transition: all linear .2s;
 
 
       & ion-icon {
@@ -69,9 +71,14 @@
       &:hover {
         color: var(--textColorWhiteHover);
         border: solid 1px var(--textColorWhiteHover);
-        background: linear-gradient(145deg, #2e2e2e, #373737);
-        box-shadow: 5px 5px 5px #262626,
-          -3px -3px 5px rgb(241, 241, 71);
+        /* background: linear-gradient(145deg, #2e2e2e, #373737); */
+        /* background: linear-gradient(135deg, rgba(241, 241, 71, 1) 0%, rgba(175, 175, 65, 1) 2%, rgba(126, 126, 61, 1) 5%, rgba(104, 104, 59, 1) 8%, rgba(74, 74, 57, 1) 14%, rgba(55, 55, 55, 1) 36%); */
+
+        background: linear-gradient(135deg, rgba(241, 241, 71, 1) 0%, rgba(175, 175, 65, 1) 9%, rgba(126, 126, 61, 1) 16%, rgba(104, 104, 59, 1) 22%, rgba(74, 74, 57, 1) 29%, rgba(55, 55, 55, 1) 41%);
+
+
+        box-shadow: 3px 3px 3px #262626,
+          -2px -2px 2px #f1f147;
 
       }
     }
@@ -154,10 +161,12 @@
         padding: 2px;
         font-size: 1rem;
         gap: 5px;
-        background: linear-gradient(145deg, #5653f9, #4846d2);
-        box-shadow: 5px 5px 5px #3937a5,
-          -3px -3px 5px #918fff;
-        transition: all ease-in .4s;
+        /* background: linear-gradient(145deg, #5653f9, #4846d2); */
+        background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(170, 169, 217, 1) 2%, rgba(119, 118, 194, 1) 5%, rgba(89, 87, 180, 1) 15%, rgba(68, 66, 170, 1) 23%, rgba(57, 55, 165, 1) 42%);
+
+        box-shadow: 5px 5px 3px #3937a5,
+          -3px -3px 3px #918fff;
+        transition: all linear .3s;
 
         & ion-icon {
           font-size: 1.3rem;
@@ -173,9 +182,13 @@
           /* background-color: var(--bg-button); */
           /* border: solid 2px var(--hover-border-button); */
           color: var(--textColorWhiteHover);
-          background: linear-gradient(145deg, #2e2e2e, #373737);
-          box-shadow: 5px 5px 5px #262626,
-            -3px -3px 5px rgb(241, 241, 71);
+          /* background: linear-gradient(145deg, #2e2e2e, #373737); */
+          /* background: linear-gradient(135deg, rgba(241, 241, 71, 1) 0%, rgba(175, 175, 65, 1) 2%, rgba(126, 126, 61, 1) 5%, rgba(104, 104, 59, 1) 8%, rgba(74, 74, 57, 1) 14%, rgba(55, 55, 55, 1) 36%); */
+
+          background: linear-gradient(135deg, rgba(241, 241, 71, 1) 0%, rgba(175, 175, 65, 1) 9%, rgba(126, 126, 61, 1) 16%, rgba(104, 104, 59, 1) 22%, rgba(74, 74, 57, 1) 29%, rgba(55, 55, 55, 1) 41%);
+
+          box-shadow: 3px 3px 3px #262626,
+            -2px -2px 2px rgb(241, 241, 71);
         }
       }
 
@@ -227,10 +240,12 @@
         align-content: center;
         overflow: hidden;
 
-        background: linear-gradient(145deg, #5653f9, #4846d2);
+        /* background: linear-gradient(145deg, #5653f9, #4846d2); */
+        background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(170, 169, 217, 1) 2%, rgba(119, 118, 194, 1) 5%, rgba(89, 87, 180, 1) 15%, rgba(68, 66, 170, 1) 23%, rgba(57, 55, 165, 1) 42%);
+
         box-shadow: 5px 5px 5px #3937a5,
           -3px -3px 5px #918fff;
-        transition: all ease-in .4s;
+        transition: all linear .3s;
 
 
         & ion-icon {
@@ -244,9 +259,11 @@
 
         &:hover {
           color: var(--textColorWhiteHover);
-          background: linear-gradient(145deg, #2e2e2e, #373737);
-          box-shadow: 5px 5px 5px #262626,
-            -3px -3px 5px rgb(241, 241, 71);
+          /* background: linear-gradient(145deg, #2e2e2e, #373737); */
+          background: linear-gradient(135deg, rgba(241, 241, 71, 1) 0%, rgba(175, 175, 65, 1) 9%, rgba(126, 126, 61, 1) 16%, rgba(104, 104, 59, 1) 22%, rgba(74, 74, 57, 1) 29%, rgba(55, 55, 55, 1) 41%);
+
+          box-shadow: 3px 3px 3px #262626,
+            -3px -3px 3px rgb(241, 241, 71);
         }
       }
     }
