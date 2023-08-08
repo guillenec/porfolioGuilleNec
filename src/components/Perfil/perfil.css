@@ -1,0 +1,118 @@
+.content-perfil {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  & .perfil-container {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    background-color: aquamarine;
+    overflow: hidden;
+    gap: 1rem;
+
+    & .perfil-saludo {
+      width: 100%;
+
+      & h1 {
+        font-size: 2rem;
+        font-family: var(--titulo-font);
+        font-weight: 600;
+        color: var(--textColorBlack);
+      }
+    }
+
+    & .perfil-img {
+      position: relative;
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+
+      & .perfil-img-overlay {
+        width: 308px;
+        height: 308px;
+        padding: 3px;
+        position: relative;
+        overflow: hidden;
+        display: grid;
+        place-content: center;
+
+        & .perfil-img-container {
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          border: solid 3px var(--hover-border-button);
+          border-radius: 55% 45% 27% 73% / 53% 28% 72% 47%;
+          animation: move 5s ease-in-out infinite;
+          z-index: 1;
+
+          &::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            content: "";
+            width: 97%;
+            height: 97%;
+            background-color: yellow;
+            border-radius: 82% 18% 46% 54% / 66% 19% 81% 34%;
+            animation: moveAfter 5s ease-in-out infinite;
+            z-index: -1;
+          }
+
+          & img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+
+
+    }
+
+  }
+}
+
+@keyframes move {
+
+  0%,
+  100% {
+    border-radius: 26% 74% 43% 57% / 62% 31% 69% 38%;
+  }
+
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+}
+
+@keyframes moveAfter {
+
+  0%,
+  100% {
+    border-radius: 76% 24% 7% 93% / 41% 75% 25% 59%;
+  }
+
+  34% {
+    border-radius: 20% 80% 94% 6% / 71% 89% 11% 29%;
+  }
+
+  67% {
+    border-radius: 18% 82% 56% 44% / 56% 66% 34% 44%;
+  }
+}

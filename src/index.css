@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
 :root {
   font-weight: 400;
   color-scheme: light dark;
@@ -9,8 +11,9 @@
 
 
   /* Fuentes */
-  --titulo-font: 'Roboto Slab', serif;
-  --parrafo-font: 'Lato', sans-serif;
+  --titulo-font: 'Roboto', sans-serif;
+
+  --parrafo-font: 'Nunito', sans-serif;
 
   --bg-light: #f9f6f3;
   --bg-header: #504ee9;
@@ -79,3 +82,15 @@ body {
   }
 
 }
+
+/* 
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
+*/
