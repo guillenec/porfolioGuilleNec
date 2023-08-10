@@ -11,15 +11,15 @@ const Perfil = () => {
             <h2>Desarrollador Web</h2>
           </article>
           <section className='perfil-contact'>
-            <a href='' target='_blank'>
+            <a href='' target='_blank' className='boton-sociales'>
               <ion-icon name='logo-github' />
               GitHub
             </a>
-            <a href='' target='_blank'>
+            <a href='' target='_blank' className='boton-sociales'>
               <ion-icon name='logo-linkedin' />
               Linkedin
             </a>
-            <a href='https://drive.google.com/file/d/1kPUhNCzyVxEogGU6h7G92ww3OLJ34LqG/view?usp=drive_link' target='_blank' rel='noreferrer'>
+            <a href='https://drive.google.com/file/d/1kPUhNCzyVxEogGU6h7G92ww3OLJ34LqG/view?usp=drive_link' target='_blank' className='boton-sociales' rel='noreferrer'>
               <ion-icon name='download-outline' />
               Curriculum
             </a>
