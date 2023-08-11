@@ -8,7 +8,7 @@ const Perfil = () => {
         <section className='perfil-saludo'>
           <article className='perfil-info'>
             <h1>Hola, soy <span>Guillermo Neculqueo!!!</span></h1>
-            <h2>Desarrollador Web</h2>
+            <h2>Frontend Developer</h2>
           </article>
           <section className='perfil-contact'>
             <a href='https://github.com/guillenec' target='_blank' className='boton-sociales' rel='noreferrer'>
@@ -20,7 +20,7 @@ const Perfil = () => {
               <span>Linkedin</span>
             </a>
             <a href='https://drive.google.com/file/d/1kPUhNCzyVxEogGU6h7G92ww3OLJ34LqG/view?usp=drive_link' target='_blank' className='boton-sociales' rel='noreferrer'>
-              <ion-icon name='download-outline' />
+              <ion-icon name='document-text' />
               <span>Curriculum</span>
             </a>
           </section>

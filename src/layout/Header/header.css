@@ -54,7 +54,7 @@
       color: var(--bg-heade);
 
       /* background: linear-gradient(145deg, #5653f9, #4846d2); */
-      background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(170, 169, 217, 1) 2%, rgba(119, 118, 194, 1) 5%, rgba(89, 87, 180, 1) 15%, rgba(68, 66, 170, 1) 23%, rgba(57, 55, 165, 1) 42%);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(170, 169, 217, 1) 2%, rgba(119, 118, 194, 1) 5%, rgba(89, 87, 180, 1) 15%, #4442aa 23%, #3937a5 42%);
 
       box-shadow: 3px 3px 3px #3937a5,
         -3px -3px 2px #918fff;

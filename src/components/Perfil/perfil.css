@@ -26,6 +26,7 @@
       justify-content: center;
       align-items: center;
       align-content: center;
+      gap: .5rem;
 
       & .perfil-info {
 
@@ -33,22 +34,24 @@
           font-size: 2rem;
           font-family: var(--titulo-font);
           font-weight: 500;
-          color: rgb(255, 67, 34);
+          /* color: var(--bg-footer); */
+          color: var(--textPurple);
         }
 
         & h2 {
           font-size: 2rem;
           font-family: var(--parrafo-font);
-          font-weight: 700;
-          color: var(--textPurple);
+          font-weight: 800;
+          /* color: var(--textPurple); */
+          color: var(--bg-footer);
+
         }
       }
 
       & .perfil-contact {
         width: 100%;
         height: auto;
-        padding: 1rem;
-        background-color: white;
+        padding: 1rem 0;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -59,7 +62,6 @@
         & .boton-sociales {
           width: 50px;
           height: 50px;
-          background-color: var(--bg-submenu);
           border-radius: 50%;
           display: flex;
           flex-direction: row;
@@ -72,6 +74,12 @@
           color: azure;
           font-weight: 500;
           font-size: 1.5rem;
+
+          border: solid 1px #3937a5;
+          background: linear-gradient(135deg, rgba(255, 255, 255, 1) 0%, rgba(170, 169, 217, 1) 2%, rgba(119, 118, 194, 1) 5%, rgba(89, 87, 180, 1) 15%, #4442aa 23%, #3937a5 42%);
+          box-shadow: 3px 3px 3px #3937a5,
+            -3px -3px 2px #918fff;
+
           transition: all .4s ease-in;
 
           & span {
@@ -79,8 +87,12 @@
           }
 
           &:hover {
-            background-color: var(--hover-button);
             color: var(--textColorWhiteHover);
+            background: linear-gradient(135deg, rgba(241, 241, 71, 1) 0%, rgba(175, 175, 65, 1) 9%, rgba(126, 126, 61, 1) 16%, rgba(104, 104, 59, 1) 22%, rgb(74, 74, 57) 29%, var(--textColorBlack) 41%);
+
+
+            box-shadow: 3px 3px 3px #262626,
+              -2px -2px 2px #f1f147;
           }
         }
       }
@@ -179,7 +191,6 @@
 @media (min-width: 768px) {
   .content-perfil {
     & .perfil-container {
-      background-color: tomato;
       display: flex;
       flex-direction: row;
       padding: 1rem;
@@ -246,7 +257,51 @@
 @media (min-width: 1200px) {
   .content-perfil {
     max-width: 1200px;
+
+    & .perfil-container {
+      gap: 1rem;
+
+      & .perfil-saludo {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+        & .perfil-info {
+          & h1 {}
+
+          & h2 {}
+        }
+
+        & .perfil-contact {
+          gap: 1rem;
+
+          & .boton-sociales {
+            width: 150px;
+
+            font-size: 1rem;
+            padding: 10px;
+
+            & span {
+              display: block;
+              font-size: .9rem;
+            }
+
+          }
+        }
+
+      }
+
+      & .perfil-img {
+        width: 50%;
+      }
+
+    }
   }
 }
+
 
 @media (min-width: 1400px) {}
