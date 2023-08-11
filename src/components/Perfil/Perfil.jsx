@@ -11,17 +11,17 @@ const Perfil = () => {
             <h2>Desarrollador Web</h2>
           </article>
           <section className='perfil-contact'>
-            <a href='' target='_blank' className='boton-sociales'>
+            <a href='https://github.com/guillenec' target='_blank' className='boton-sociales' rel='noreferrer'>
               <ion-icon name='logo-github' />
-              GitHub
+              <span>GitHub</span>
             </a>
-            <a href='' target='_blank' className='boton-sociales'>
+            <a href='https://www.linkedin.com/in/guillermo-agust%C3%ADn-neculqueo-57932b196/' target='_blank' className='boton-sociales' rel='noreferrer'>
               <ion-icon name='logo-linkedin' />
-              Linkedin
+              <span>Linkedin</span>
             </a>
             <a href='https://drive.google.com/file/d/1kPUhNCzyVxEogGU6h7G92ww3OLJ34LqG/view?usp=drive_link' target='_blank' className='boton-sociales' rel='noreferrer'>
               <ion-icon name='download-outline' />
-              Curriculum
+              <span>Curriculum</span>
             </a>
           </section>
         </section>
