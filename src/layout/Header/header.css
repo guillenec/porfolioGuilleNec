@@ -22,13 +22,13 @@
     border-top: 2px solid var(--border-button);
     border-radius: 0 0 5px 0;
     gap: 1rem;
-    opacity: 0;
-    transition: all .5s ease-in;
+    /* opacity: 0; */
+    transition: all .3s ease-in;
     z-index: 10;
 
     &.submenuActive {
       left: 0;
-      opacity: 1;
+      /* opacity: 1; */
     }
 
     & .navMenuButton {
@@ -104,7 +104,7 @@
       height: 3px;
       background-color: var(--bg-main);
       border-radius: 30px;
-      transition: all .4s ease-in;
+      transition: all .3s ease-in;
     }
 
     &.active .toggle-item:nth-child(1) {
@@ -136,7 +136,7 @@
     & .navMenuContainer {
       position: absolute;
       top: 60px;
-      left: -150px;
+      left: -160px;
       width: 160px;
       height: auto;
       padding: 1rem;
@@ -148,13 +148,13 @@
       border-top: 2px solid var(--border-button);
       border-radius: 0 0 5px 0;
       gap: 1rem;
-      opacity: 0;
-      transition: all .5s ease-in;
+      /* opacity: 0; */
+      transition: all .3s ease-in;
       z-index: 10;
 
       &.submenuActive {
         left: 0;
-        opacity: 1;
+        /* opacity: 1; */
       }
 
       & .navMenuButton {
@@ -226,7 +226,7 @@
       border: none;
       overflow: auto;
       opacity: 1;
-
+      transition: left .1s ease-in;
 
       & .navMenuButton {
         height: 40px;
