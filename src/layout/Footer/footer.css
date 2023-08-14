@@ -5,4 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  & h2 {
+    font-family: var(--parrafo-font);
+    font-size: 1rem;
+  }
 }

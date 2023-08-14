@@ -59,7 +59,7 @@
       box-shadow: 3px 3px 3px #3937a5,
         -3px -3px 2px #918fff;
 
-      transition: all linear .2s;
+      transition: all .3s linear;
 
 
       & ion-icon {
@@ -149,6 +149,7 @@
       border-radius: 0 0 5px 0;
       gap: 1rem;
       /* opacity: 0; */
+
       transition: all .3s ease-in;
       z-index: 10;
 
@@ -169,7 +170,7 @@
 
         box-shadow: 5px 5px 3px #3937a5,
           -3px -3px 3px #918fff;
-        transition: all linear .3s;
+        transition: all .3s linear;
 
         & ion-icon {
           font-size: 1.3rem;
@@ -226,7 +227,7 @@
       border: none;
       overflow: auto;
       opacity: 1;
-      transition: left .1s ease-in;
+      transition: none;
 
       & .navMenuButton {
         height: 40px;
@@ -249,7 +250,7 @@
 
         box-shadow: 5px 5px 5px #3937a5,
           -3px -3px 5px #918fff;
-        transition: all linear .3s;
+        transition: all .3s linear;
 
 
         & ion-icon {

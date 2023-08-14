@@ -1,6 +1,6 @@
 .content-perfil {
   width: 100%;
-  min-height: calc(100vh - 210px);
+  min-height: calc(100vh - 60px);
   background-color: azure;
   display: flex;
   justify-content: center;
@@ -82,7 +82,7 @@
 
           box-shadow: 3px 3px 3px #3937a5,
             -3px -3px 2px #918fff;
-          transition: all .4s ease-in;
+          transition: all .3s ease-in;
 
           & span {
             display: none;
