@@ -4,12 +4,13 @@ const Stack = () => {
   return (
     <section className='containStack'>
       <section className='sobreMi'>
-        <h1>Sobre mi</h1>
+        <h2>Estudios</h2>
         <p>
           Soy un desarrollador web, con mas de 10 años de experiencia.
         </p>
       </section>
       <section className='miStack'>
+        <h2>Stack Actual:</h2>
         <ul className='listStack'>
           <li>
             <img src='https://res.cloudinary.com/dpiwmbsog/image/upload/v1691991358/porfolio/html02_mxnxck.svg' alt='logo html' />
